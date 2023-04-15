@@ -5,7 +5,7 @@
     <ProjectGuid>249deeac-2e51-4c44-ab98-e83bf15ebdc1</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Wlodzimierz_bialy_cansat_wykresy.py</StartupFile>
+    <StartupFile>Wlodzimierz_bialy_cansat_plots.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Wlodzimierz_bialy_cansat_wykresy.py" />
+    <Compile Include="Wlodzimierz_bialy_cansat_plots.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="b660-675.txt" />
@@ -31,6 +31,7 @@
     <Content Include="550-750.txt" />
     <Content Include="b315-328.txt" />
     <Content Include="b90-105.txt" />
+    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
